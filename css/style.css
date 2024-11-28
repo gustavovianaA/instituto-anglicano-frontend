@@ -481,13 +481,13 @@
 /*** Cars Categories Start ***/
 .categories .categories-item {
     position: relative;
-    border: 1px solid var(--bs-secondary);
+    /** border: 1px solid var(--bs-secondary); **/
     border-radius: 10px;
     transition: 0.5s;
 }
 
 .categories .categories-item:hover {
-    border: 1px solid var(--bs-primary);
+    /** border: 1px solid var(--bs-primary); **/
 }
 
 .categories .categories-item .categories-item-inner {
@@ -919,6 +919,7 @@
 /*** Footer Start ***/
 .footer {
     background: var(--bs-dark);
+    background:  #002a66;
 }
 
 .footer .footer-item a {
